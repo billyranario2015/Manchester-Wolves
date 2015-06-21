@@ -270,4 +270,7 @@ footer div.container div.copyright div p a:hover {
 	background: #e68525;
 	color: #fff;
 }
+.slider-text a h3 {
+	margin: 0;
+}
 /* ---------* end: Override *--------- */

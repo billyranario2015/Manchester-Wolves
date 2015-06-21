@@ -1,0 +1,273 @@
+/* ---------* Reset CSS *------------ */
+/* #e68525 */
+* { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+body {
+	font-family: arial, sans-serif;
+	background-color: #000;
+}
+h1 { 
+    font-size: 2.2em; 
+} 
+h2 { 
+    font-size: 2.0em;     
+} 
+h3 { 
+    font-size: 1.8em; 
+} 
+h4 { 
+    font-size: 1.6em;     
+} 
+h5 { 
+    font-size: 1.4em;     
+} 
+p { 
+    font-size: 0.9em;     
+}
+/*
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+header {
+	position: absolute;
+	width: 100%;
+	top: 45px;
+	z-index: 1;
+}
+header div.header-wrapper {
+	min-height: 94px;
+	background-color: #000;
+}
+header div.header-wrapper section div.main-navigation {
+	background-color: #e68525;
+}
+header div.header-wrapper section div#top-sub-text span {
+	font-size: 0.9em;
+	float: left;
+	padding-top: 3px;
+}
+header div.header-wrapper section div#top-sub-text ,
+header div.header-wrapper section div.container > div.bottom-sub-text
+{
+	color: #fff;
+}
+header div.header-wrapper section div#top-sub-text {
+	height: 22px;
+}
+header div.header-wrapper section div.container > div.secondary-navigation,
+header div.header-wrapper section div.container > div.bottom-sub-text
+{
+	height: 22px;
+}
+header div.header-wrapper section div.container > div.secondary-navigation ul.navbar {
+	min-height: 1px;
+}
+header div.header-wrapper section div.container > div.secondary-navigation ul.navbar li {
+	display: inline-block;
+	padding: 0 5px;
+}
+header div.header-wrapper section div.container > div.secondary-navigation ul.navbar li a {
+	color: #fff;
+  	font-size: 0.9em;
+}
+header div.header-wrapper section div.main-navigation div#main-menu-container nav ul#main-menu {
+	margin-left: 85px;
+}
+header div.header-wrapper section div.container > div.bottom-sub-text p {
+	margin-left: 95px;
+	font-size: 0.8em;
+	padding-top: 3px;
+	margin-bottom: 0;	
+}
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+section#main-container {
+	/*min-height: 500px;*/
+	margin-bottom: 30px;
+}
+section#main-container div.main-content div.left-container div.page-content {
+	min-height: 500px;
+}
+section#main-container div.main-content div.left-container div.featured-content {
+	margin-top: 30px;
+}
+section#main-container div.main-content div.left-container div.featured-content div.partners > div p {
+	color: #acacac;
+	padding: 10px 0 0;
+	margin: 0;
+	text-align: center;
+	width: 140px;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content {
+	margin-top: 20px;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-list li img.logo {
+	width: 75px;	
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-list li p {
+	display: inline-block;
+	font: bold 0.8em arial;
+	color: #acacac;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-list li img.img-skybet {
+	width: 200px;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-social-links li {
+	padding: 25px 3px;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-social-links li a {
+	color: #cacaca;
+	font-size: 0.9em;
+	text-decoration: none;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-social-links li a:hover {
+	color: #e68525;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-social-links li i {
+	background: url( '../img/sprite-icons/icon_sprites.png' ) no-repeat;
+	display: inline-block;
+	height: 21px;
+	width: 25px;
+	position: relative;
+	top: 5px;
+	left: 4px;
+	margin-right: 4px;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-social-links li a i.list-twitter {
+  	background-position-y: -79px;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-social-links li a i.list-fb {
+  	background-position: -28px -79px;
+}
+section#main-container div.main-content div.official-sites-container div.official-sites-content div.content ul.bottom-social-links li a i.list-rss {
+	background-position: -177px -79px;
+}
+section#main-container div.main-content div#bottom-links-horizontal-1 {
+	border-top: 1px solid #595959;
+	border-bottom: 1px solid #595959;
+ 	padding: 6px 10px 0;
+}
+section#main-container div.main-content div#bottom-links-horizontal-2 {
+	border-bottom: 1px solid #595959;
+	padding: 7px 0;
+}
+section#main-container div.main-content div#bottom-links-horizontal-1 > div,
+section#main-container div.main-content div#bottom-links-horizontal-2 > div 
+{
+	padding: 0 50px;
+}
+section#main-container div.main-content div#bottom-links-horizontal-1 div ul li a {
+	color: #646464;
+	font-size: 0.8em;
+	font-weight: 600;
+	text-decoration: none;
+}
+section#main-container div.main-content div#bottom-links-horizontal-1 div ul li a:hover {
+	color: #e68525;
+}
+section#main-container div.main-content div#bottom-links-horizontal-2 div ul,
+section#main-container div.main-content div#bottom-links-horizontal-2 div ul li p 
+{
+	margin-bottom: 0;
+}
+section#main-container div.main-content div#bottom-links-horizontal-2 div ul li p {
+	font-size: 0.9em;
+	text-decoration: none;
+	color: #646464;
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+footer div.container div.links,
+footer div.container div.copyright
+{
+	overflow: hidden;
+}
+footer div.container div.links > ul.list-inline > li {
+	float: left;
+  	padding: 0 15px;
+}
+footer div.container div.links > ul.list-inline > li a {
+	color: #797979;
+	text-decoration: none;
+}
+footer div.container div.links > ul.list-inline > li a:hover {
+	color: #e68525;
+}
+footer div.container div.links > ul.list-inline > li a.heading {
+	font-size: 0.9em;
+	font-weight: 600;
+	margin-bottom: 14px;
+	display: block;
+}
+footer div.container div.links > ul.list-inline > li ul.sub-links li a {
+	font-size: 0.8em;
+}
+footer div.container div.copyright {
+	width: 100%;
+	margin: 28px 0 60px;
+}
+footer div.container div.copyright div p {
+	color: #797979;
+	font-size: 0.8em;
+}
+footer div.container div.copyright div p a {
+	color: #797979;
+	text-decoration: none;
+}
+footer div.container div.copyright div p a:hover {
+	color: #e68525;
+}
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+.float {
+	width: 100%;
+}
+.remove-side-padding {
+	padding-right: 0 !important ;
+	padding-left: 0 !important ;
+}
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 600;
+}
+.nav > li.active > a, 
+.nav > li > a:focus,
+.nav > li > a:hover
+{
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+}
+.navbar-brand {
+	height: 17px;
+	padding: 0 15px;
+}
+.navbar-brand > img {
+	width: 87px;
+}
+.pagination li a {
+	color: #000;
+}
+.pagination li a:hover {
+	background: #e68525;
+	color: #fff;
+}
+/* ---------* end: Override *--------- */

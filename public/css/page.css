@@ -1,0 +1,76 @@
+
+div#home-image-slider div.item div.carousel-caption div.slider-text {
+	float: right;
+	background: rgba( 0,0,0,0.8 );
+	padding: 12px 25px;
+}
+div#home-image-slider div.item div.carousel-caption div.slider-text a, 
+div.page-slider div.item div.carousel-caption div.slider-text a 
+{
+	text-decoration: none;
+  	color: #fff;
+}
+div#home-image-slider div.item div.carousel-caption div.slider-text a:hover,
+div.page-slider div.item div.carousel-caption div.slider-text a:hover
+{
+  	color: #e68525;
+}
+div#home-image-slider div.item div.carousel-caption div.slider-text a h3.
+div.page-slider div.item div.carousel-caption div.slider-text a h3
+{
+	font-size: 37px;
+	font-weight: bold;
+  	margin: 0;
+}
+div.page-slider div.item div.carousel-caption {
+	top: 22%;
+	left: 8%;
+}
+div.page-slider div.item div.carousel-caption div.slider-text {
+  	float: left;
+  	background: rgba( 0,0,0,0.8 );
+	padding: 12px 25px;
+}
+div.page-slider div.item div.carousel-caption div.slider-text a h3 {
+  	margin: 0;
+}
+section#about-page > div article img {
+	margin: 20px 5px 30px 0;
+}
+section.content-article div h4.heading,
+section.content-article div article
+{
+	color: #DADADA;
+}
+section.content-article  div h4 {
+	margin: 25px 0;
+	color: #FFF;
+}
+section#news-page div div.search-form {
+	margin: 25px 0;
+}
+section#news-page div div.news-post {
+	overflow: hidden;
+	margin-bottom: 13px;
+}
+section#news-page div div.news-post a {
+	text-decoration: none;
+	color: #fff;
+}
+section#news-page div div.news-post a h3.news-title {
+	color: #e68525;
+	margin-top: 0;
+}
+section#news-page div div.news-post a h3.news-title:hover {
+	color: #B6B6B6;
+}
+section#news-page div div.news-post div.img,
+section#news-page div div.news-post div.news-desc
+{
+	padding-left: 0 !important;
+	color: #B6B6B6;
+}
+section#news-page div div.news-post div.img img {
+	height: 130px;
+	width: 156px;
+}
